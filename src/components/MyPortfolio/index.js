@@ -6,6 +6,7 @@ import UserSearchCity from "../../images/UserSearchCity.png";
 import StartScreenJavascriptQuiz from "../../images/StartScreenJavascriptQuiz.png";
 import TPG2 from "../../images/TPG2.png";
 import burgerMain from "../../images/burgerMain.png";
+import cardInfo from "../../cardInfo.js";
 
 function Portfolio (props) {
     return (
@@ -22,7 +23,25 @@ function Portfolio (props) {
 
                             <div className="row">
                                 <div className="card-deck">
-                                    <div className="card ">
+                                {cardInfo.map(result => (
+                                    <div className="card " key={result.id}>
+                                    <div className="embed-responsive embed-responsive-4by3">
+                                        <img src={result.image}
+                                            className="card-img-top embed-responsive-item" alt="..."/>
+                                    </div>
+                                    <div className="card-body text-center cardBodyBorder">
+                                        <h5 className="card-title">{result.title}</h5>
+                                        <p className="card-text">{result.description}</p>
+                                    </div>
+                                    <div className="card-footer text-center">
+                                        <a href={result.deployed} target="_blank"
+                                            className="btn myButton buttonMargin">See It Live</a>
+                                        <a href={result.repository} target="_blank"
+                                            className="btn myButton buttonMargin">Visit Code</a>
+                                    </div>
+                                </div>
+          ))}
+{/*                                     <div className="card ">
                                         <div className="embed-responsive embed-responsive-4by3">
                                             <img src={Petocracy}
                                                 className="card-img-top embed-responsive-item" alt="..."/>
@@ -58,7 +77,7 @@ function Portfolio (props) {
                                             <a href="https://github.com/jtoth7824/group_project1/" target="_blank"
                                                 className="btn myButton buttonMargin">Visit Code</a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="card">
                                         <div className="embed-responsive embed-responsive-4by3">
                                             <img src={UserSearchCity}
