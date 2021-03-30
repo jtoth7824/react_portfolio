@@ -3,83 +3,21 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Navbar from "../components/Navbar";
+import AboutMe from "../components/AboutMe";
 import "./style.css";
 
 function About() {
   return (
     <div>
-
-{/*       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero> */}
-      <Container className="container marginBottomCont" style={{ marginTop: 30 }}>
-        <Row>
-          <Col className="marginBottomCol" size="lg-8 md-8 sm-12 xs-12">
-{/*             <div className="container marginBottomCont"> */}
-{/*               <div className="row"> */}
-{/*                 <div className="marginBottomCol"> */}
-                  <div className="card">
-                    <div className="card-body">
-                      <h2 className="card-title captionSize aboutTextColor myBottomBorder">About Me</h2>
-                      <img src="../images/pic3.jpg" className="image-responsive johnPic float-left padding" alt="help"/>
-                      <p>Hi, my name is John Toth. I am a full-stack web developer currently looking for a new
-                        position. I have a B.S. in Computer Science and Engineering from the Milwaukee School of
-                        Engineering.
-                        My anticipated completion date for full-stack developer is April 2021 from George
-                        Washington University. My body of knowledge includes HTML5, CSS3, Javascript, jQuery,
-                        Ajax, JSON and Node.js.
-                      </p>
-                      <p>Currently living in the Philadelphia area and would like to find a full-stack web
-                        developer position in this area or the Trenton/Princeton area. I am open to relocating
-                        for the right position. With Covid-19 restrictions, I'd prefer something remote right
-                        now.
-                      </p>
-                      <p>Please see the menu option entitled Portfolio to see some of my recent projects.</p>
-                    </div>
-                  </div>
-{/*                 </div> */}
-{/*               </div> */}
-{/*             </div> */}
-          </Col>
-          <Col className=" marginBottomCol" size="lg-4 md-4 sm-12 xs-12">
-{/*             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 marginBottomCol"> */}
-              <div className="card">
-                 <div className="card-body">
-                    <h2 className="card-title captionSize aboutTextColor myBottomBorder">Connect with me</h2>
-                    <div className="row">
-                        <h3 className="invisible">sidebar row containing Connection icons</h3>
-                        <div className="col justify-content-center">
-                            <a href="https://www.linkedin.com/in/j-toth-25bb4a208/" className="padding"
-                                target="_blank"><img className="d-block m-auto" src="../../public/images/LinkedInPic.png" alt="LinkedIn" /></a>
-                        </div>
-                        <div className="col justify-content-center">
-                            <a href="https://github.com/jtoth7824" className="padding" target="_blank"><img
-                                    className="d-block p-auto m-auto" src="../../public/images/GitHubPic.png" alt="GitHub" /></a>
-                        </div>
-                        <div className="col justify-content-center">
-                            <a href="https://stackoverflow.com/users/14297764/jtoth7824" className="padding"
-                                target="_blank"><img className="d-block m-auto"
-                                    src="../../public/images/StackOverflowPic.png" alt="StackOverflow" /></a>
-                        </div>
-                    </div>
-                    <Row>
-{/*                     <div className="row"> */}
-                        <div className="col-xs-12">Email address: jtoth7824@gmail.com</div>
-{/*                     </div> */}
-                    </Row>
-                    <Row>
-{/*                     <div className="row"> */}
-                        <div className="col-xs-12">Phone number: 301-693-6688</div>
-{/*                     </div> */}
-                    </Row>
-                  </div>
-              </div>
-{/*             </div> */}
-          </Col>
-        </Row>
+      <Container style={{ minHeight: "80%" }}>
+      <Navbar />
+      <div className="container">
+      <AboutMe 
+        style={{height:"42px", width:"42px"}} />
+      </div>
       </Container>
-    </div>
+</div>
   );
 }
 

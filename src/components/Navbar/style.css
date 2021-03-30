@@ -1,3 +1,24 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+/* styling for items in the navbar */
+.articleContainer {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.captionSize {
+  font-size: 24px;
+}
+
+.johnNavLink {
+  display: block;
+  padding: .5rem 0 .5rem 1rem;
+  font-size: 20px;
+}
+.brand {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(127, 125, 129);
 }
