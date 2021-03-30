@@ -6,7 +6,7 @@ import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import AboutMe from "./components/AboutMe";
+// import AboutMe from "./components/AboutMe";
 
 function App() {
   return (

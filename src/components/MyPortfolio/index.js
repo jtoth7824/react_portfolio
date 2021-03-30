@@ -1,11 +1,4 @@
 import React from "react";
-import "./style.css";
-import Petocracy from "../../images/PetocracyHome.png";
-import MovieInfo from "../../images/MovieInfo.png";
-import UserSearchCity from "../../images/UserSearchCity.png";
-import StartScreenJavascriptQuiz from "../../images/StartScreenJavascriptQuiz.png";
-import TPG2 from "../../images/TPG2.png";
-import burgerMain from "../../images/burgerMain.png";
 import cardInfo from "../../cardInfo.js";
 
 function Portfolio (props) {
@@ -78,7 +71,7 @@ function Portfolio (props) {
                                                 className="btn myButton buttonMargin">Visit Code</a>
                                         </div>
                                     </div> */}
-                                    <div className="card">
+{/*                                     <div className="card">
                                         <div className="embed-responsive embed-responsive-4by3">
                                             <img src={UserSearchCity}
                                                 className="card-img-top embed-responsive-item" alt="..."/>
@@ -94,10 +87,10 @@ function Portfolio (props) {
                                             <a href="https://github.com/jtoth7824/weatherDashboard/" target="_blank"
                                                 className="btn myButton buttonMargin">Visit Code</a>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                 </div>
-                                <div className="card-deck">
+{/*                                 <div className="card-deck">
                                     <div className="card">
                                         <div className="embed-responsive embed-responsive-4by3">
                                             <img src={StartScreenJavascriptQuiz}
@@ -148,7 +141,7 @@ function Portfolio (props) {
                                                 className="btn myButton buttonMargin">Visit Code</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 import aboutMePic from "../../images/pic3.jpg";
 import GitHubPic from "../../images/GitHubPic.png";
 import LinkedInPic from "../../images/LinkedInPic.png";

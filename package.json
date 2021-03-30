@@ -1,5 +1,5 @@
 {
-    "name": "employee_directory",
+    "name": "react_portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -41,5 +41,5 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "https://jtoth7824.github.io/employee_directory"
+    "homepage": "https://jtoth7824.github.io/react_portfolio"
 }
