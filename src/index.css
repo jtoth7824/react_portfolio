@@ -86,15 +86,6 @@ body {
   border-top-right-radius: 20px;
 }
 
-/* styling to keep button over top the image during resizing of browser */
-.outerDiv {
-  position:relative;
-}
-
-.aAbsolute {
-  position:absolute;top: auto;right: auto; z-index: 1000;
-}
-
 /* styling for personal picture on About Me page */
 .johnPic {
   max-width: 100%;
