@@ -10,15 +10,13 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
         <Navbar />
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
         <Footer />
-      </div>
     </Router>
   );
 }

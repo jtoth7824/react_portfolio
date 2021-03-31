@@ -21,7 +21,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/Portfolio" className={location.pathname === "#/Portfolio"
+                                <Link to="/Portfolio" className={location.pathname === "/Portfolio"
                                             ? "johnNavLink aboutTextColor active"
                                             : "johnNavlink aboutTextColor"
                                 }>
@@ -30,7 +30,7 @@ function Navbar() {
                                 {/* <a className="johnNavLink aboutTextColor" href="./portfolio.html">Portfolio</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link to="/About" className={location.pathname === "#/About"
+                                <Link to="/About" className={location.pathname === "/About"
                                         ? "johnNavLink aboutTextColor active"
                                         : "johnNavLink aboutTextColor"
                                 }>
@@ -39,7 +39,7 @@ function Navbar() {
                                 {/* <a className="johnNavLink aboutTextColor" href="./index.html">About</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link  to="/Resume" className={location.pathname === "#/Resume"
+                                <Link  to="/Resume" className={location.pathname === "/Resume"
                                         ? "johnNavLink aboutTextColor active"
                                         : "johnNavLink aboutTextColor"
                                 }>
