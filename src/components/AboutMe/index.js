@@ -1,24 +1,20 @@
 import React from "react";
-// import "./style.css";
 import aboutMePic from "../../images/pic3.jpg";
 import GitHubPic from "../../images/GitHubPic.png";
 import LinkedInPic from "../../images/LinkedInPic.png";
 import StackOverflowPic from "../../images/StackOverflowPic.png";
 
 function AboutMe(props) {
-
-    console.log(props);
-    // const styleField = props.styleField.split(" ").map(styleField => styleField);
-    // console.log(styleField);
     return (
+
 <div className="container marginBottomCont">
     <div className="row">
-        <div className="lg-8 md-8 sm-12 xs-12 marginBottomCol">
+        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 marginBottomCol">
             <div className="card">
                 <div className="card-body">
                     <h2 className="card-title captionSize aboutTextColor myBottomBorder">About Me</h2>
                     <img src={aboutMePic} className="image-responsive johnPic float-left padding"
-                        alt="Portrait picture" />
+                        alt="Portrait" />
                     <p>Hi, my name is John Toth. I am a full-stack web developer currently looking for a new
                         position. I have a B.S. in Computer Science and Engineering from the Milwaukee School of
                         Engineering.
@@ -35,7 +31,7 @@ function AboutMe(props) {
                 </div>
             </div>
         </div>
-        <div className="lg-4 md-4 sm-12 xs-12 marginBottomCol">
+        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 marginBottomCol">
             <div className="card">
                 <div className="card-body">
                     <h2 className="card-title captionSize aboutTextColor myBottomBorder">Connect with me</h2>
@@ -43,17 +39,17 @@ function AboutMe(props) {
                         <h3 className="invisible">sidebar row containing Connection icons</h3>
                         <div className="col justify-content-center">
                             <a href="https://www.linkedin.com/in/j-toth-25bb4a208/" className="padding"
-                                target="_blank"><img className="d-block m-auto" src={LinkedInPic}
-                                style={props.style} alt="LinkedIn" /></a>
+                                target="_blank"  rel="noreferrer noopener"><img className="d-block m-auto" src={LinkedInPic}
+                                style={props.style} alt="LinkedIn"/></a>
                         </div>
                         <div className="col justify-content-center">
-                            <a href="https://github.com/jtoth7824" className="padding" target="_blank"><img
+                            <a href="https://github.com/jtoth7824" className="padding" target="_blank" rel="noreferrer noopener"><img
                                     className="d-block p-auto m-auto" src={GitHubPic} style={props.style}
                                      alt="GitHub" /></a>
                         </div>
                         <div className="col justify-content-center">
                             <a href="https://stackoverflow.com/users/14297764/jtoth7824" className="padding"
-                                target="_blank"><img className="d-block m-auto"
+                                target="_blank" rel="noreferrer noopener"><img className="d-block m-auto"
                                     src={StackOverflowPic} style={props.style}
                                     alt="StackOverflow" /></a>
                         </div>

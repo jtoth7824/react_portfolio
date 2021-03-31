@@ -6,11 +6,9 @@ import AboutMe from "../components/AboutMe";
 function About() {
   return (
     <div>
-      <Container style={{ minHeight: "80%" }}>
-      <div className="container">
+      <Container>
       <AboutMe 
         style={{height:"42px", width:"42px"}} />
-      </div>
       </Container>
 </div>
   );

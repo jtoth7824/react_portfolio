@@ -1,7 +1,7 @@
 import React from "react";
 import cardInfo from "../../cardInfo.js";
 
-function Portfolio (props) {
+function Portfolio () {
     return (
 
         <div className="container containerColor marginBottomCont">
@@ -27,9 +27,9 @@ function Portfolio (props) {
                                         <p className="card-text">{result.description}</p>
                                     </div>
                                     <div className="card-footer text-center">
-                                        <a href={result.deployed} target="_blank"
+                                        <a href={result.deployed} target="_blank" rel="noreferrer noopener"
                                             className="btn myButton buttonMargin">See It Live</a>
-                                        <a href={result.repository} target="_blank"
+                                        <a href={result.repository} target="_blank" rel="noreferrer noopener"
                                             className="btn myButton buttonMargin">Visit Code</a>
                                     </div>
                                 </div>

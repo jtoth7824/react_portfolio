@@ -6,7 +6,7 @@ function Footer() {
         <div className="fixed-bottom">
            <div className="row">
                <div className="col">
-                    <footer className="myFooter brand text-left">
+                    <footer className="myFooter brand text-white text-left">
                        &copy; John Toth 2021
                     </footer>
                </div>

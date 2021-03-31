@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import "./style.css";
+import { Link, useLocation } from "react-router-dom";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
+    const location = useLocation();
   return (
-<div>
+
     <div className="articleContainer">
         <div className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
@@ -19,22 +19,30 @@ function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <h2 className="invisible">Menu options for website</h2>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="johnNavLink aboutTextColor" to="/Portfolio">
+                                <Link to="/Portfolio" className={location.pathname === "#/Portfolio"
+                                            ? "johnNavLink aboutTextColor active"
+                                            : "johnNavlink aboutTextColor"
+                                }>
                                     Portfolio
                                 </Link>
                                 {/* <a className="johnNavLink aboutTextColor" href="./portfolio.html">Portfolio</a> */}
                             </li>
-                            <li className="nav-item font-weight-bold active">
-                                <Link className="johnNavLink aboutTextColor" to="/About">
+                            <li className="nav-item">
+                                <Link to="/About" className={location.pathname === "#/About"
+                                        ? "johnNavLink aboutTextColor active"
+                                        : "johnNavLink aboutTextColor"
+                                }>
                                     About
                                 </Link>
                                 {/* <a className="johnNavLink aboutTextColor" href="./index.html">About</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link className="johnNavLink aboutTextColor" to="/Resume">
+                                <Link  to="/Resume" className={location.pathname === "#/Resume"
+                                        ? "johnNavLink aboutTextColor active"
+                                        : "johnNavLink aboutTextColor"
+                                }>
                                     Resume
                                 </Link>
                                 {/* <a className="johnNavLink aboutTextColor" href="./resume.html">Resume</a> */}
@@ -44,8 +52,9 @@ function Navbar() {
                 </div>
             </div>
         </div>
+        <br />
+        <br />
     </div>
-</div>
   );
 }
 
