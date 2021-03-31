@@ -7,7 +7,7 @@ function Resume () {
     return (
       <div>
         <Container style={{ minHeight: "80%" }}>
-        <PDFResume />
+          <PDFResume />
         </Container>
       </div>
     );

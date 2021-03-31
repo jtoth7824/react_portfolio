@@ -4,6 +4,9 @@ import StartScreenJavascriptQuiz from "./images/StartScreenJavascriptQuiz.png";
 import burgerMain from "./images/burgerMain.png";
 import UserSearchCity from "./images/UserSearchCity.png";
 import TPG2 from "./images/TPG2.png";
+import Transactions from "./images/Transactions.png";
+import EmployeeDirSortAsc from "./images/EmployeeDirSortAsc.png";
+import WorkoutTrackerHomePage from "./images/WorkoutTrackerHomePage.png";
 
 const cardInfo = [
     {
@@ -53,6 +56,30 @@ const cardInfo = [
         github: "https://github.com/jtoth7824/burger/",
         deployed: "https://morning-island-76519.herokuapp.com/",
         description: "Allows user to enter a burger name to add to list of available.  User can then click Eat Me button to devour burger and move it to devoured list."
+      },
+      {
+        id: 7,
+        title: "Employee Directory",
+        image: EmployeeDirSortAsc,
+        github: "https://github.com/jtoth7824/employee_directory/",
+        deployed: "https://jtoth7824.github.io/employee_directory/",
+        description: "Generates list of employees which can be filtered and sorted."
+      },
+      {
+        id: 8,
+        title: "Budget Tracker",
+        image: Transactions,
+        github: "https://github.com/jtoth7824/budget_tracker/",
+        deployed: "https://mighty-castle-87506.herokuapp.com",
+        description: "Budget tracker allows user to keep track of income/expenses in on-line & off-line mode.  This is a progressive web application."
+      },
+      {
+        id: 9,
+        title: "Workout Tracker",
+        image: WorkoutTrackerHomePage,
+        github: "https://github.com/jtoth7824/fitness_tracker/",
+        deployed: "https://desolate-anchorage-35501.herokuapp.com",
+        description: "Workout tracker allows user to enter exercises and workouts and graph results.   This utilized a mongoDb Atlas for the database.."
       },
   ]
 

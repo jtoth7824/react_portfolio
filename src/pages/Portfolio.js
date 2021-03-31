@@ -7,7 +7,7 @@ function Portfolio () {
     return (
       <div>
         <Container style={{ minHeight: "80%" }}>
-        <MyPortfolio />
+          <MyPortfolio />
         </Container>
       </div>
     );

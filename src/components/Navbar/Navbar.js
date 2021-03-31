@@ -12,7 +12,6 @@ function Navbar() {
                 <Link className="mr-auto brand font-weight-bold" to="/">
                     John Toth
                 </Link>
-                {/* <a className="mr-auto brand font-weight-bold" href="./index.html">John Toth</a> */}
                 <div className="navbar navbar-expand-lg bg-light">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +26,6 @@ function Navbar() {
                                 }>
                                     Portfolio
                                 </Link>
-                                {/* <a className="johnNavLink aboutTextColor" href="./resume.html">Resume</a> */}
                             </li>
                             <li className="nav-item">
                                 <Link to="/About" className={location.pathname === "/About"
@@ -36,7 +34,6 @@ function Navbar() {
                                 }>
                                     About
                                 </Link>
-                                {/* <a className="johnNavLink aboutTextColor" href="./index.html">About</a> */}
                             </li>
                             <li className="nav-item">
                                 <Link  to="/Resume" className={location.pathname === "/Resume"
@@ -45,7 +42,6 @@ function Navbar() {
                                 }>
                                     Resume
                                 </Link>
-                                {/* <a className="johnNavLink aboutTextColor" href="./resume.html">Resume</a> */}
                             </li>
                         </ul>
                     </div>

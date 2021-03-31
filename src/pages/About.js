@@ -7,8 +7,7 @@ function About() {
   return (
     <div>
       <Container>
-      <AboutMe 
-        style={{height:"42px", width:"42px"}} />
+        <AboutMe  style={{height:"42px", width:"42px"}} />
       </Container>
 </div>
   );
