@@ -37,8 +37,8 @@ const cardInfo = [
         id: 4,
         title: "Javascript Quiz",
         image: StartScreenJavascriptQuiz,
-        github: "https://github.com/jtoth7824/javascriptQuiz/",
-        deployed: "https://jtoth7824.github.io/javascriptQuiz",
+        github: "https://github.com/jtoth7824/javascriptCodeQuiz/",
+        deployed: "https://jtoth7824.github.io/javascriptCodeQuiz",
         description: "Take a quick javascript quiz."
       },
       {
@@ -77,9 +77,9 @@ const cardInfo = [
         id: 9,
         title: "Workout Tracker",
         image: WorkoutTrackerHomePage,
-        github: "https://github.com/jtoth7824/fitness_tracker/",
+        github: "https://github.com/jtoth7824/workout_tracker/",
         deployed: "https://desolate-anchorage-35501.herokuapp.com",
-        description: "Workout tracker allows user to enter exercises and workouts and graph results.   This utilized a mongoDb Atlas for the database.."
+        description: "Workout tracker allows user to enter exercises and workouts and graph results.   This utilized a mongoDb Atlas for the database."
       },
   ]
 

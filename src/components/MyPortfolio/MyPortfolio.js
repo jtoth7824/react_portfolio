@@ -26,7 +26,7 @@ function Portfolio () {
                                             <div className="card-footer text-center">
                                                 <a href={result.deployed} target="_blank" rel="noreferrer noopener"
                                                     className="btn myButton buttonMargin">See It Live</a>
-                                                <a href={result.repository} target="_blank" rel="noreferrer noopener"
+                                                <a href={result.github} target="_blank" rel="noreferrer noopener"
                                                     className="btn myButton buttonMargin">Visit Code</a>
                                             </div>
                                         </div>

@@ -51,6 +51,7 @@
   color: #fff;
   background-color: rgb(127, 125, 129);
   border-color: rgb(127, 125, 129);
+  margin-right: 5px !important;
 }
 
 /* styling to keep column items separated */
