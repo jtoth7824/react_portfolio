@@ -8,7 +8,8 @@ function Portfolio () {
                 <div className="marginBottomCol">
                     <div className="card-transparent">
                         <div className="card-body mt-5">
-                            <h2 className="card-title text-center text-white myBottomBorder">Recent Projects</h2>
+                            <h2 className="card-title text-center text-white myBottomBorder1">Recent Projects</h2>
+                            <br />
                             <h3 className="text-center text-white">Examples of my recent projects</h3>
                             <div className="row ">
                                     {cardInfo.map(result => (

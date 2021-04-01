@@ -9,7 +9,7 @@ function Navbar() {
     <div className="articleContainer">
         <div className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-                <Link className="mr-auto brand font-weight-bold" to="/">
+                <Link className="mr-auto brand font-weight-bold" to="/" >
                     John Toth
                 </Link>
                 <div className="navbar navbar-expand-lg bg-light">
@@ -28,7 +28,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/About" className={location.pathname === "/About"
+                                <Link to="/" className={location.pathname === "/"
                                         ? "johnNavLink aboutTextColor font-weight-bold active"
                                         : "johnNavLink aboutTextColor"
                                 }>
@@ -48,8 +48,6 @@ function Navbar() {
                 </div>
             </div>
         </div>
-        <br />
-        <br />
     </div>
   );
 }

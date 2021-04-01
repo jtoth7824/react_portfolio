@@ -69,6 +69,12 @@ body {
   border-bottom-width: 5px !important;
   border-bottom-style: solid !important;
 
+  border-bottom-color: gray;
+}
+.myBottomBorder1 {
+  border-bottom-width: 5px !important;
+  border-bottom-style: solid !important;
+
   border-bottom-color: white;
 }
 /* generic padding amount */
