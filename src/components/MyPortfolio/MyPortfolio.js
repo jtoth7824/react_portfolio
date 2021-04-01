@@ -11,7 +11,7 @@ function Portfolio () {
                             <h2 className="card-title text-center text-white myBottomBorder1">Recent Projects</h2>
                             <br />
                             <h3 className="text-center text-white">Examples of my recent projects</h3>
-                            <div className="row ">
+                            <div className="row row-cols-1 rows-cols-md-3">
                                     {cardInfo.map(result => (
                                         <div className="col col-xs-12 col-sm-12 col-md-6 col-xl-4 mb-4" key={result.id}>
                                         <div className="card h-100">
