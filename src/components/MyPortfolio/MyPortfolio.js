@@ -13,7 +13,7 @@ function Portfolio () {
                             <h3 className="text-center text-white">Examples of my recent projects</h3>
                             <div className="row row-cols-1 rows-cols-md-3">
                                     {cardInfo.map(result => (
-                                        <div className="col col-xs-12 col-sm-12 col-md-6 col-xl-4 mb-4" key={result.id}>
+                                        <div className="col-xs-12 col-sm-12 col-md-6 col-xl-4 marginBottomCol" key={result.id}>
                                         <div className="card h-100">
                                             <div className="embed-responsive embed-responsive-4by3">
                                                 <img src={result.image}
