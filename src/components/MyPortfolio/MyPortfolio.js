@@ -1,5 +1,6 @@
 import React from "react";
-import cardInfo from "../../cardInfo.js";
+import Project from "../Project";
+import cardInfo from "../../cardInfo";
 
 function Portfolio () {
     return (
@@ -13,24 +14,14 @@ function Portfolio () {
                             <h3 className="text-center text-white">Examples of my recent projects</h3>
                             <div className="row row-cols-1 rows-cols-md-3">
                                     {cardInfo.map(result => (
-                                        <div className="col-xs-12 col-sm-12 col-md-6 col-xl-4 marginBottomCol" key={result.id}>
-                                        <div className="card h-100">
-                                            <div className="embed-responsive embed-responsive-4by3">
-                                                <img src={result.image}
-                                                    className="card-img-top embed-responsive-item" alt="project"/>
-                                            </div>
-                                            <div className="card-body text-center cardBodyBorder">
-                                                <h5 className="card-title">{result.title}</h5>
-                                                <p className="card-text">{result.description}</p>
-                                            </div>
-                                            <div className="card-footer text-center">
-                                                <a href={result.deployed} target="_blank" rel="noreferrer noopener"
-                                                    className="btn myButton buttonMargin">See It Live</a>
-                                                <a href={result.github} target="_blank" rel="noreferrer noopener"
-                                                    className="btn myButton buttonMargin">Visit Code</a>
-                                            </div>
-                                        </div>
-                                        </div>
+                                        <Project 
+                                            id = {result.id}
+                                            image = {result.image}
+                                            title = {result.title}
+                                            description = {result.description}
+                                            deployed = {result.deployed}
+                                            github = {result.github}
+                                        />
                                     ))}
                             </div>
                         </div>
