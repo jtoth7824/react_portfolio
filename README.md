@@ -16,21 +16,21 @@ This application was built using React and utilizes component state.  It also us
 The following is a screenshot of the About Me page of the portfolio application.
 
 <p align="center">
-  <img src="./assets/images/AboutMeReact.png" alt="About me page of the portfolio application screenshot">
+  <img src="./src/images/AboutMeReact.png" alt="About me page of the portfolio application screenshot">
 </p>
 
 #### Resume page
 The following is a screenshot of the Resume page with embedded PDF.
 
 <p align="center">
-  <img src="./assets/images/ResumeReact.png" alt="Resume page of the portfolio application screenshot">
+  <img src="./src/images/ResumeReact.png" alt="Resume page of the portfolio application screenshot">
 </p>
 
 #### Portfolio page
 The following is a screenshot of the Portfolio page of the portfolio application.
 
 <p align="center">
-  <img src="./assets/images/ProjectsReact.png" alt="Projects page of the portfolio application screenshot">
+  <img src="./src/images/ProjectsReact.png" alt="Projects page of the portfolio application screenshot">
 </p>
 
 ## Installation
