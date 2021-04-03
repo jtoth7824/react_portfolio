@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.b1c4e4d3.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.4ce79821.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.4ce79821.chunk.js.map",
+    "main.js": "/react_portfolio/static/js/main.a878d037.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.a878d037.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.8f0e09ce.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.8f0e09ce.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react_portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -18,11 +18,8 @@
     "static/media/PetocracyHome.dcbb1408.png": "/react_portfolio/static/media/PetocracyHome.dcbb1408.png",
     "static/media/StackOverflowPic.0123b8df.png": "/react_portfolio/static/media/StackOverflowPic.0123b8df.png",
     "static/media/StartScreenJavascriptQuiz.a352d71c.png": "/react_portfolio/static/media/StartScreenJavascriptQuiz.a352d71c.png",
-    "static/media/TPG2.e6e74c6d.png": "/react_portfolio/static/media/TPG2.e6e74c6d.png",
     "static/media/Transactions.3cd6feff.png": "/react_portfolio/static/media/Transactions.3cd6feff.png",
     "static/media/UserSearchCity.2927b372.png": "/react_portfolio/static/media/UserSearchCity.2927b372.png",
-    "static/media/WorkoutTrackerHomePage.60d7c7d4.png": "/react_portfolio/static/media/WorkoutTrackerHomePage.60d7c7d4.png",
-    "static/media/burgerMain.98dceea2.png": "/react_portfolio/static/media/burgerMain.98dceea2.png",
     "static/media/pic3.1bcad485.jpg": "/react_portfolio/static/media/pic3.1bcad485.jpg"
   },
   "entrypoints": [
@@ -30,6 +27,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d7b8541a.chunk.js",
     "static/css/main.b1c4e4d3.chunk.css",
-    "static/js/main.4ce79821.chunk.js"
+    "static/js/main.a878d037.chunk.js"
   ]
 }
