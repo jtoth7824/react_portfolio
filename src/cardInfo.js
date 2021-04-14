@@ -48,11 +48,11 @@ const cardInfo = [
     },
     {
       id: 6,
-       title: "Javascript Quiz",
-       image: StartScreenJavascriptQuiz,
-       github: "https://github.com/jtoth7824/javascriptCodeQuiz/",
-       deployed: "https://jtoth7824.github.io/javascriptCodeQuiz",
-       description: "Take a quick javascript quiz."
+       title: "GoogleBookSearch",
+       image: GoogleBookSearch,
+       github: "https://github.com/jtoth7824/googleBookSearch/",
+       deployed: "https://secure-ocean-84141.herokuapp.com/",
+       description: "Search google for books and then save books to list."
     },
   ]
 
