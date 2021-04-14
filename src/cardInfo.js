@@ -1,6 +1,6 @@
 import PetocracyHome from "./images/PetocracyHome.png";
 import MovieInfo from "./images/MovieInfo.png";
-import StartScreenJavascriptQuiz from "./images/StartScreenJavascriptQuiz.png";
+import GoogleBookSearch from "./images/GoogleBookSearch.png";
 import UserSearchCity from "./images/UserSearchCity.png";
 import Transactions from "./images/Transactions.png";
 import EmployeeDirSortAsc from "./images/EmployeeDirSortAsc.png";
