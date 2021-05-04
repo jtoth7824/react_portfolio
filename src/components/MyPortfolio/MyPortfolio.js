@@ -21,6 +21,8 @@ function Portfolio () {
                                             description = {result.description}
                                             deployed = {result.deployed}
                                             github = {result.github}
+                                            skills = {result.skills}
+                                            role = {result.role}
                                         />
                                     ))}
                             </div>

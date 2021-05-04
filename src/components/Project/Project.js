@@ -11,6 +11,8 @@ function Project (props) {
                 <div className="card-body text-center cardBodyBorder">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
+                    <p className="card-text"><strong>Skills:</strong> {props.skills}</p>
+                    <p className="card-text"><strong>Role:</strong> {props.role}</p>
                 </div>
                 <div className="card-footer text-center">
                     <a href={props.deployed} target="_blank" rel="noreferrer noopener"
