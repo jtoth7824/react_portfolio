@@ -33,6 +33,10 @@
   width: 75%;
 }
 
+.col {
+  height: 75px;
+}
+
 .card {
   margin: 10px 0px;
 }
